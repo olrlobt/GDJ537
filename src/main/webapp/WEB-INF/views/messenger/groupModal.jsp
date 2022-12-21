@@ -26,7 +26,7 @@
 																		<div class="userArea" style="display: flex;	justify-content: start; align-items: center;">
 																			<div class="userAdd">
 																				<input class="checkUser" type="checkbox" name="id" value="${e.id}" dep-num="${d.depNum}">
-																				<img id="yourImg${e.id}" class="yourImg" src="/file/profile/${e.profile}">
+																				<img id="yourImg${e.id}" class="yourImg" src="/file/user/${e.profile}">
 																			</div>
 																			<div class="userInfo" style="width: 60%; color: white; margin-left: 9px;">
 																				<span class="empName" empId="${e.id}" value="${e.name}">😎${e.name}</span>
@@ -49,7 +49,7 @@
 																		<div class="userArea" style="display: flex;	justify-content: start; align-items: center;">
 																			<div>
 																				<input class="checkUser" type="checkbox" name="id" value="${e.id}" dep-num="${d.depNum}">
-																				<img id="yourImg${e.id}" class="yourImg" src="/file/profile/${e.profile}">
+																				<img id="yourImg${e.id}" class="yourImg" src="/file/user/${e.profile}">
 																			</div>
 																			<div class="userAdd" style="width: 60%;">
 																				<span class="empName" empId="${e.id}" value="${e.name}">😎${e.name}</span>
@@ -80,7 +80,7 @@
 									<div class="content">
 										<div class="roomInfo">
 											<div class="row">
-												<img id="rmImg" src="/img/undraw_profile_3.svg" width="100" height="100" style="border-radius: 50%;"><span>2</span>
+												<img id="rmImg" src="/img/user/user.webp" width="100" height="100" style="border-radius: 50%;">
 											</div>
 											<div class="infoArea" style="background: transparent; border: none; box-shadow: none !important;">
 												<div class="input-group mb-3 justify-content-center">
