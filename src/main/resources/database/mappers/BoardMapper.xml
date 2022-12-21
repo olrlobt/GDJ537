@@ -99,7 +99,7 @@
 	<sql id="search">
 		<choose>
 			<when test="kind == 'title'">TITLE</when>
-			<when test="kind == 'creator'">ID</when>
+			<when test="kind == 'creator'">creator</when>
 			<otherwise>CONTENTS</otherwise>
 		</choose>
 		LIKE CONCAT('%', #{search}, '%')
